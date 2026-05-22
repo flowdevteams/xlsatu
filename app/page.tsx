@@ -2,10 +2,8 @@ import { Navbar } from '@/components/navbar'
 import { HeroCarousel } from '@/components/hero-carousel'
 import { FeaturesSection } from '@/components/features-section'
 import { PricingSection } from '@/components/pricing-section'
-import { MyXLAppSection } from '@/components/myxl-app-section'
 import { CoverageSection } from '@/components/coverage-section'
 import { FAQSection } from '@/components/faq-section'
-import { ContactSection } from '@/components/contact-section'
 import { Footer } from '@/components/footer'
 import { FloatingWhatsappCTA } from '@/components/floating-whatsapp-cta'
 
@@ -16,10 +14,8 @@ export default function Home() {
       <HeroCarousel />
       <FeaturesSection />
       <PricingSection />
-      <MyXLAppSection />
       <CoverageSection />
       <FAQSection />
-      <ContactSection />
       <Footer />
       <FloatingWhatsappCTA />
 

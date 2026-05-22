@@ -2,8 +2,11 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { Mail, MapPin, Phone } from 'lucide-react'
+import { MapPin, Phone } from 'lucide-react'
 import { ScrollReveal } from '@/components/scroll-reveal'
+
+const WHATSAPP_URL =
+  'https://wa.me/6285942010910?text=Halo%20XLSATU%2C%20saya%20ingin%20cek%20ketersediaan%20jaringan.'
 
 const mainLinks = [
   { href: '#home', label: 'Beranda' },
@@ -11,7 +14,6 @@ const mainLinks = [
   { href: '#paket', label: 'Paket & Harga' },
   { href: '#coverage', label: 'Cek Coverage' },
   { href: '#faq', label: 'FAQ' },
-  { href: '#contact', label: 'Hubungi Kami' },
 ]
 
 export function Footer() {
@@ -32,7 +34,7 @@ export function Footer() {
                 alt="XLSATU"
                 width={1094}
                 height={1094}
-                className="h-14 w-auto object-contain brightness-0 invert"
+                className="h-28 w-auto object-contain brightness-0 invert"
               />
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-blue-100/90 max-w-md">
@@ -42,18 +44,11 @@ export function Footer() {
 
             <div className="mt-6 space-y-3">
               <a
-                href="tel:+62800111222"
+                href="tel:+6285942010910"
                 className="inline-flex items-center gap-3 rounded-xl border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-blue-50 backdrop-blur-md transition-colors hover:bg-white/20"
               >
                 <Phone className="h-4 w-4 text-cyan-300" />
-                +62 (800) 111 222
-              </a>
-              <a
-                href="mailto:support@internetid.com"
-                className="inline-flex items-center gap-3 rounded-xl border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-blue-50 backdrop-blur-md transition-colors hover:bg-white/20"
-              >
-                <Mail className="h-4 w-4 text-cyan-300" />
-                support@internetid.com
+                0859-4201-0910
               </a>
               <div className="inline-flex items-center gap-3 rounded-xl border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-blue-50 backdrop-blur-md">
                 <MapPin className="h-4 w-4 text-cyan-300" />
@@ -85,39 +80,33 @@ export function Footer() {
             </p>
             <div className="flex flex-col gap-3">
               <a
-                href="https://wa.me/628218046225?text=Halo%20XLSATU%2C%20saya%20ingin%20cek%20ketersediaan%20jaringan."
+                href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex justify-center rounded-xl bg-gradient-to-r from-cyan-500 via-sky-500 to-blue-600 px-4 py-3 text-sm font-semibold text-white shadow-[0_12px_24px_-14px_rgba(14,165,233,0.95)] transition-all hover:-translate-y-0.5 hover:from-cyan-400 hover:to-blue-500"
               >
                 Cek Jaringan via WhatsApp
               </a>
-              <Link
-                href="#contact"
+              <a
+                href={WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex justify-center rounded-xl border border-white/25 bg-white/10 px-4 py-3 text-sm font-semibold text-blue-50 backdrop-blur-md transition-colors hover:bg-white/20"
               >
-                Form Hubungi Kami
-              </Link>
+                Konsultasi Paket via WhatsApp
+              </a>
             </div>
           </ScrollReveal>
         </div>
 
         <ScrollReveal
-          className="mt-10 border-t border-white/15 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3"
+          className="mt-10 border-t border-white/15 pt-6 flex items-center justify-center"
           duration={760}
           delay={140}
         >
-          <p className="text-xs sm:text-sm text-blue-100/80 text-center sm:text-left">
+          <p className="text-xs sm:text-sm text-blue-100/80 text-center">
             &copy; {currentYear} XLSATU. Semua hak dilindungi.
           </p>
-          <div className="flex items-center gap-4">
-            <Link href="/sitemap.xml" className="text-xs sm:text-sm text-blue-100/80 hover:text-white transition-colors">
-              Sitemap
-            </Link>
-            <Link href="/robots.txt" className="text-xs sm:text-sm text-blue-100/80 hover:text-white transition-colors">
-              Robots
-            </Link>
-          </div>
         </ScrollReveal>
       </div>
 
@@ -132,8 +121,7 @@ export function Footer() {
           contactPoint: {
             '@type': 'ContactPoint',
             contactType: 'Customer Service',
-            telephone: '+62-800-111-222',
-            email: 'support@internetid.com',
+            telephone: '+62-859-4201-0910',
             availableLanguage: 'id',
           },
         })}

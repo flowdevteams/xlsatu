@@ -5,6 +5,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Menu, Sparkles, X } from 'lucide-react'
 
+const WHATSAPP_URL =
+  'https://wa.me/6285942010910?text=Halo%20XLSATU%2C%20saya%20ingin%20konsultasi%20paket%20internet%20rumah.'
+
 const navLinks = [
   { href: '#home', label: 'Beranda' },
   { href: '#paket', label: 'Paket' },
@@ -81,13 +84,15 @@ export function Navbar() {
               ))}
             </div>
 
-            <Link
-              href="#contact"
+            <a
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-blue-500/40 bg-gradient-to-r from-cyan-500 via-sky-500 to-blue-600 px-5 py-2 text-sm font-semibold text-white shadow-[0_14px_28px_-16px_rgba(37,99,235,0.95)] transition-all duration-300 hover:-translate-y-0.5 hover:from-cyan-400 hover:to-blue-500"
             >
               <Sparkles className="h-4 w-4" />
               Hubungi Kami
-            </Link>
+            </a>
           </div>
 
           <button
@@ -112,13 +117,15 @@ export function Navbar() {
                   {item.label}
                 </Link>
               ))}
-              <Link
-                href="#contact"
+              <a
+                href={WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-1 block rounded-xl bg-gradient-to-r from-cyan-500 via-sky-500 to-blue-600 px-4 py-2.5 text-center text-sm font-semibold text-white shadow-[0_10px_18px_-12px_rgba(37,99,235,0.9)] transition-all hover:from-cyan-400 hover:to-blue-500"
                 onClick={() => setIsOpen(false)}
               >
                 Hubungi Kami
-              </Link>
+              </a>
             </div>
           </div>
         )}

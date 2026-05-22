@@ -70,8 +70,8 @@ export function ContactSection() {
                   <p className="text-gray-600 text-sm mb-3">
                     Hubungi kami langsung untuk konsultasi dan support
                   </p>
-                  <a href="tel:+62800111222" className="text-blue-600 font-semibold hover:text-blue-700 transition-colors">
-                    +62 (800) 111 222
+                  <a href="tel:+6285942010910" className="text-blue-600 font-semibold hover:text-blue-700 transition-colors">
+                    0859-4201-0910
                   </a>
                 </div>
               </div>
@@ -212,7 +212,7 @@ export function ContactSection() {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="+62 81X-XXXX-XXXX"
+                    placeholder="0859-4201-0910"
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 bg-gray-50 text-gray-900 placeholder-gray-500"
                   />
                 </div>

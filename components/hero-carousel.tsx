@@ -38,7 +38,7 @@ const slides: Slide[] = [
 ]
 
 const whatsappUrl =
-  'https://wa.me/628218046225?text=Halo%20XLSATU%2C%20saya%20ingin%20pendaftaran%20cepat%20internet%20rumah.'
+  'https://wa.me/6285942010910?text=Halo%20XLSATU%2C%20saya%20ingin%20pendaftaran%20cepat%20internet%20rumah.'
 
 export function HeroCarousel() {
   const [current, setCurrent] = useState(0)

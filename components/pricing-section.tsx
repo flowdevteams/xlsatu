@@ -1,4 +1,4 @@
-import { Check, MessageCircle, Router, Wifi } from 'lucide-react'
+import { Check, MessageCircle, Router, Sparkles, Wifi } from 'lucide-react'
 import { ScrollReveal } from '@/components/scroll-reveal'
 
 interface InternetPackage {
@@ -12,7 +12,7 @@ interface InternetPackage {
   monthlyPriceAfterTax: number
 }
 
-const WHATSAPP_NUMBER = '628218046225'
+const WHATSAPP_NUMBER = '6285942010910'
 const VAT_PERCENT = 11
 
 const internetPackages: InternetPackage[] = [
@@ -39,7 +39,7 @@ const internetPackages: InternetPackage[] = [
   {
     id: 'smart',
     name: 'Smart',
-    speedMbps: 50,
+    speedMbps: 250,
     idealFor: ['Browsing', 'Social Media', 'Streaming HD'],
     maxDevices: 7,
     installationText: 'Gratis Biaya Instalasi',
@@ -49,7 +49,7 @@ const internetPackages: InternetPackage[] = [
   {
     id: 'family',
     name: 'Family',
-    speedMbps: 100,
+    speedMbps: 350,
     idealFor: ['Browsing', 'Social Media', 'Streaming HD'],
     maxDevices: 8,
     installationText: 'Gratis Biaya Instalasi',
@@ -59,7 +59,7 @@ const internetPackages: InternetPackage[] = [
   {
     id: 'superuser',
     name: 'Superuser',
-    speedMbps: 150,
+    speedMbps: 400,
     idealFor: ['Browsing', 'Social Media', 'Streaming HD', 'Streaming 4K'],
     maxDevices: 10,
     installationText: 'Gratis Biaya Instalasi',
@@ -174,6 +174,7 @@ export function PricingSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8">
           {internetPackages.map((pkg, index) => {
             const speedProgress = Math.max(8, Math.round((pkg.speedMbps / 1000) * 100))
+            const isBestSeller = pkg.id === 'smart'
 
             return (
               <ScrollReveal
@@ -183,12 +184,21 @@ export function PricingSection() {
                 delay={80 + index * 75}
                 duration={760}
                 threshold={0.1}
-                className="group relative rounded-3xl overflow-hidden border border-blue-200/70 bg-gradient-to-b from-white via-blue-50/40 to-white shadow-[0_20px_50px_-30px_rgba(30,64,175,0.7)] transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_28px_55px_-22px_rgba(14,116,144,0.65)]"
+                className={`group relative rounded-3xl overflow-hidden border border-blue-200/70 bg-gradient-to-b from-white via-blue-50/40 to-white shadow-[0_20px_50px_-30px_rgba(30,64,175,0.7)] transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_28px_55px_-22px_rgba(14,116,144,0.65)] ${isBestSeller ? 'ring-2 ring-amber-300/90 shadow-[0_26px_60px_-26px_rgba(251,191,36,0.75)] lg:scale-[1.02]' : ''}`}
                 itemScope
                 itemType="https://schema.org/Service"
                 aria-label={`Paket ${pkg.name} ${pkg.speedMbps} Mbps`}
               >
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(56,189,248,0.14),transparent_44%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                {isBestSeller && (
+                  <>
+                    <div className="pointer-events-none absolute -inset-6 bg-[radial-gradient(circle,rgba(251,191,36,0.26),transparent_62%)] blur-2xl" />
+                    <div className="pointer-events-none absolute right-4 top-4 z-10 inline-flex items-center gap-1.5 rounded-full border border-amber-200/80 bg-gradient-to-r from-amber-300 via-yellow-300 to-orange-300 px-3 py-1 text-xs font-black tracking-wide text-slate-900 shadow-[0_10px_25px_-14px_rgba(245,158,11,0.95)] animate-pulse">
+                      <Sparkles className="h-3.5 w-3.5" />
+                      BEST SELLER
+                    </div>
+                  </>
+                )}
+                <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(56,189,248,0.14),transparent_44%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                 <div className="relative bg-gradient-to-r from-cyan-600 via-sky-600 to-blue-700 px-6 py-5">
                   <div className="absolute inset-0 bg-[linear-gradient(120deg,transparent_15%,rgba(255,255,255,0.22)_35%,transparent_55%)] opacity-0 group-hover:opacity-100 group-hover:translate-x-8 transition-all duration-700" />
                   <h3 className="relative text-2xl font-bold text-white" itemProp="name">{pkg.name}</h3>
@@ -236,6 +246,12 @@ export function PricingSection() {
                 </div>
 
                 <div className="px-6 py-6">
+                  {isBestSeller && (
+                    <p className="inline-flex items-center gap-2 rounded-md bg-gradient-to-r from-amber-100 to-yellow-100 px-3 py-1 text-sm font-bold text-amber-800 mb-3">
+                      <Sparkles className="w-4 h-4" />
+                      Paket paling banyak dipilih
+                    </p>
+                  )}
                   <p className="text-2xl sm:text-3xl font-extrabold text-blue-800 mb-2">Hanya {formatRupiah(pkg.monthlyPrice)}/bulan</p>
                   <p className="text-xl text-slate-500 mb-6">
                     Harga Setelah PPN <strong>{formatRupiah(pkg.monthlyPriceAfterTax)}/bulan</strong>

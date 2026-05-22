@@ -69,7 +69,7 @@ Telah dibuat landing page modern dan responsif untuk provider internet Indonesia
 ### 8. **Contact Section** ✅
 - Comprehensive contact form
 - Multiple contact methods:
-  - Telepon: +62 (800) 111 222
+  - Telepon: 0859-4201-0910
   - Email: support@internetid.com
   - Lokasi fisik dengan detailed address
   - Jam operasional

@@ -72,7 +72,7 @@ export default function RootLayout({
             name: 'InternetID',
             description: 'Penyedia layanan internet fiber optik untuk kebutuhan rumah dan bisnis di Indonesia.',
             url: 'https://internetid.com',
-            telephone: '+62-800-111-222',
+            telephone: '+62-859-4201-0910',
             sameAs: [
               'https://www.facebook.com/internetid',
               'https://www.instagram.com/internetid',
@@ -82,7 +82,7 @@ export default function RootLayout({
             contactPoint: {
               '@type': 'ContactPoint',
               contactType: 'Customer Support',
-              telephone: '+62-800-111-222',
+              telephone: '+62-859-4201-0910',
               hoursAvailable: 'Mon-Sun 00:00-24:00',
               availableLanguage: 'id',
             },

@@ -4,6 +4,9 @@ import { useState } from 'react'
 import { ChevronDown } from 'lucide-react'
 import { ScrollReveal } from '@/components/scroll-reveal'
 
+const WHATSAPP_URL =
+  'https://wa.me/6285942010910?text=Halo%20XLSATU%2C%20saya%20ingin%20bantuan%20customer%20service.'
+
 interface FAQItem {
   id: string
   question: string
@@ -33,7 +36,7 @@ const faqs: FAQItem[] = [
     id: 'faq-4',
     question: 'Bagaimana dengan dukungan teknis jika ada masalah?',
     answer:
-      'Tim dukungan teknis kami tersedia 24/7 untuk membantu Anda. Anda dapat menghubungi kami melalui telepon (+62-800-111-222), email (support@internetid.com), atau aplikasi mobile kami. Response time kami rata-rata kurang dari 15 menit untuk urgent issues.',
+      'Tim dukungan teknis kami tersedia 24/7 untuk membantu Anda. Anda dapat menghubungi kami melalui telepon (0859-4201-0910) atau WhatsApp resmi XLSATU. Response time kami rata-rata kurang dari 15 menit untuk urgent issues.',
   },
   {
     id: 'faq-5',
@@ -148,7 +151,9 @@ export function FAQSection() {
             Tim customer service kami siap membantu menjawab pertanyaan Anda. Hubungi kami kapan saja.
           </p>
           <a
-            href="#contact"
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors inline-block"
           >
             Hubungi Customer Service
