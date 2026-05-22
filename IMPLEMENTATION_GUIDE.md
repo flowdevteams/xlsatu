@@ -387,7 +387,7 @@ export const config = {
 1. Hero Section - "Pesan Sekarang"
 2. Pricing Cards - "Pilih Paket"
 3. Coverage - "Pesan Sekarang"
-4. FAQ - "Hubungi Customer Service"
+4. FAQ - "Hubungi Team Marketing Kami"
 5. Contact Form - Lead capture
 
 ### Best Practices

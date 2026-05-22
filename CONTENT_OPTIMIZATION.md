@@ -194,7 +194,7 @@ Home (P1)
 ❌ Bad: "Click here"
 ✅ Good: "Pesan Paket Premium Sekarang"
          "Cek Jangkauan Layanan Anda"
-         "Hubungi Customer Service"
+         "Hubungi Team Marketing Kami"
 ```
 
 ---

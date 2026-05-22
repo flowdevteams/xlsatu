@@ -30,7 +30,7 @@ const faqs: FAQItem[] = [
     id: 'faq-3',
     question: 'Apakah saya bisa upgrade atau downgrade paket kapan saja?',
     answer:
-      'Tentu saja! Anda dapat mengupgrade atau downgrade paket Anda kapan saja tanpa penalti atau biaya tambahan. Perubahan akan efektif pada siklus billing berikutnya. Hubungi customer service kami atau gunakan aplikasi mobile untuk mengubah paket Anda.',
+      'Tentu saja! Anda dapat mengupgrade atau downgrade paket Anda kapan saja tanpa penalti atau biaya tambahan. Perubahan akan efektif pada siklus billing berikutnya. Hubungi Team Marketing Kami kami atau gunakan aplikasi mobile untuk mengubah paket Anda.',
   },
   {
     id: 'faq-4',
@@ -156,7 +156,7 @@ export function FAQSection() {
             rel="noopener noreferrer"
             className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors inline-block"
           >
-            Hubungi Customer Service
+            Hubungi Team Marketing Kami
           </a>
         </ScrollReveal>
 
