@@ -1,4 +1,4 @@
-# 🌐 InternetID - Landing Page Provider Internet Indonesia
+# 🌐 Xl Satu - Landing Page Provider Internet Indonesia
 
 > Landing page modern, responsif, dan SEO-optimized untuk provider internet Indonesia. Dibangun dengan Next.js 16, React 19, dan Tailwind CSS terbaru.
 
@@ -49,7 +49,7 @@ Included documentations:
 ```bash
 # Clone repository
 git clone <repository-url>
-cd internetid-landing
+cd Xl Satu-landing
 
 # Install dependencies
 pnpm install
@@ -103,7 +103,7 @@ SEO & Analytics:
 ## 📁 Project Structure
 
 ```
-internetid-landing/
+Xl Satu-landing/
 ├── app/
 │   ├── layout.tsx              # Root layout dengan metadata
 │   ├── page.tsx                # Landing page
@@ -233,7 +233,7 @@ Update design tokens in:
 
 ### Domain Configuration
 
-Replace `https://internetid.com` in:
+Replace `https://Xl Satu.com` in:
 - `app/layout.tsx` (OpenGraph)
 - `app/sitemap.ts` (Sitemap URL)
 - `app/robots.ts` (Host)
@@ -428,7 +428,7 @@ For questions or support:
 1. **Clone & Install**
    ```bash
    git clone <repo>
-   cd internetid-landing
+   cd Xl Satu-landing
    pnpm install
    ```
 

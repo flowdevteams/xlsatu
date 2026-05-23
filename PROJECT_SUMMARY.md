@@ -70,7 +70,7 @@ Telah dibuat landing page modern dan responsif untuk provider internet Indonesia
 - Comprehensive contact form
 - Multiple contact methods:
   - Telepon: 0859-4201-0910
-  - Email: support@internetid.com
+  - Email: support@Xl Satu.com
   - Lokasi fisik dengan detailed address
   - Jam operasional
 - Form fields: Name, Email, Phone, Region, Message

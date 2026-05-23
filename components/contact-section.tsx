@@ -92,8 +92,8 @@ export function ContactSection() {
                   <p className="text-gray-600 text-sm mb-3">
                     Kirim email untuk pertanyaan atau keluhan
                   </p>
-                  <a href="mailto:support@internetid.com" className="text-blue-600 font-semibold hover:text-blue-700 transition-colors">
-                    support@internetid.com
+                  <a href="mailto:support@Xl Satu.com" className="text-blue-600 font-semibold hover:text-blue-700 transition-colors">
+                    support@Xl Satu.com
                   </a>
                 </div>
               </div>

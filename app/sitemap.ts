@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://internetid.com'
+  const baseUrl = 'https://Xl Satu.com'
 
   return [
     {

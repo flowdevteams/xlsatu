@@ -20,7 +20,7 @@ export default function robots(): MetadataRoute.Robots {
         crawlDelay: 1,
       },
     ],
-    sitemap: 'https://internetid.com/sitemap.xml',
-    host: 'https://internetid.com',
+    sitemap: 'https://Xl Satu.com/sitemap.xml',
+    host: 'https://Xl Satu.com',
   }
 }

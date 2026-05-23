@@ -115,8 +115,8 @@ export function Footer() {
           '@context': 'https://schema.org',
           '@type': 'Organization',
           name: 'XLSATU',
-          url: 'https://internetid.com',
-          logo: 'https://internetid.com/favicon.png',
+          url: 'https://Xl Satu.com',
+          logo: 'https://Xl Satu.com/favicon.png',
           description: 'Penyedia layanan internet fiber optik terpercaya di Indonesia',
           contactPoint: {
             '@type': 'ContactPoint',

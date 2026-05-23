@@ -1,4 +1,4 @@
-# ⚡ Quick Reference Guide - InternetID Landing Page
+# ⚡ Quick Reference Guide - Xl Satu Landing Page
 
 ## 🎯 10-Minute Setup
 

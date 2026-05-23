@@ -36,7 +36,7 @@ const myxlAppStructuredData = {
   publisher: {
     '@type': 'Organization',
     name: 'XLSATU',
-    url: 'https://internetid.com',
+    url: 'https://Xl Satu.com',
   },
 }
 

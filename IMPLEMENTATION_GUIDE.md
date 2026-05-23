@@ -159,7 +159,7 @@ const faqs: FAQItem[] = [
 ## 🔧 Important Configurations
 
 ### 1. **Update Domain in Metadata**
-Ganti `https://internetid.com` dengan domain Anda di:
+Ganti `https://Xl Satu.com` dengan domain Anda di:
 - `app/layout.tsx` (OpenGraph URL)
 - `app/sitemap.ts` (Sitemap baseUrl)
 - `app/robots.ts` (Host)
