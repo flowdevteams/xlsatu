@@ -65,7 +65,7 @@ const coverageStructuredData = {
   provider: {
     '@type': 'Organization',
     name: 'XLSATU',
-    url: 'https://Xl Satu.com',
+    url: 'https://daftarxlsatu.com',
   },
 }
 

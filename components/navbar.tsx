@@ -50,10 +50,10 @@ export function Navbar() {
         <div className="pointer-events-none absolute inset-x-8 bottom-0 h-px bg-gradient-to-r from-transparent via-cyan-500/70 to-transparent" />
 
         <div className="relative flex h-16 items-center justify-between px-3 sm:px-5">
-          <Link href="/" className="flex items-center transition-opacity hover:opacity-90" aria-label="Xl Satu Home">
+          <Link href="/" className="flex items-center transition-opacity hover:opacity-90" aria-label="XLSATU Home">
             <Image
               src="/xlsatu.png"
-              alt="Xl Satu"
+              alt="XLSATU"
               width={1094}
               height={1094}
               priority

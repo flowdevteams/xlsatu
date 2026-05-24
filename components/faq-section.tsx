@@ -30,13 +30,13 @@ const faqs: FAQItem[] = [
     id: 'faq-3',
     question: 'Apakah saya bisa upgrade atau downgrade paket kapan saja?',
     answer:
-      'Tentu saja! Anda dapat mengupgrade atau downgrade paket Anda kapan saja tanpa penalti atau biaya tambahan. Perubahan akan efektif pada siklus billing berikutnya. Hubungi Team Marketing Kami kami atau gunakan aplikasi mobile untuk mengubah paket Anda.',
+      'Tentu. Anda dapat upgrade atau downgrade paket kapan saja tanpa penalti atau biaya tambahan. Perubahan akan berlaku pada siklus tagihan berikutnya. Hubungi tim marketing kami atau gunakan aplikasi myXL untuk mengubah paket Anda.',
   },
   {
     id: 'faq-4',
     question: 'Bagaimana dengan dukungan teknis jika ada masalah?',
     answer:
-      'Tim dukungan teknis kami tersedia 24/7 untuk membantu Anda. Anda dapat menghubungi kami melalui telepon (0859-4201-0910) atau WhatsApp resmi XLSATU. Response time kami rata-rata kurang dari 15 menit untuk urgent issues.',
+      'Tim dukungan teknis kami tersedia 24/7 untuk membantu Anda. Anda dapat menghubungi kami melalui telepon (0859-4201-0910) atau WhatsApp resmi XLSATU. Waktu respons kami rata-rata kurang dari 15 menit untuk kendala mendesak.',
   },
   {
     id: 'faq-5',
@@ -54,7 +54,7 @@ const faqs: FAQItem[] = [
     id: 'faq-7',
     question: 'Apa kecepatan internet yang sebenarnya yang akan saya dapatkan?',
     answer:
-      'Kecepatan yang kami promosikan adalah kecepatan minimum yang dijamin. Kecepatan actual dapat bervariasi tergantung pada beberapa faktor seperti kualitas perangkat, jarak dari base station, dan beban jaringan. Kami menjamin kecepatan minimal sesuai paket Anda.',
+      'Kecepatan yang kami promosikan adalah kecepatan minimum yang dijamin. Kecepatan aktual dapat bervariasi tergantung pada beberapa faktor seperti kualitas perangkat, jarak dari titik jaringan, dan beban jaringan. Kami tetap menjamin kecepatan minimal sesuai paket Anda.',
   },
   {
     id: 'faq-8',

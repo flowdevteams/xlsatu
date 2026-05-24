@@ -101,7 +101,7 @@ const internetPackages: InternetPackage[] = [
 const pricingStructuredData = {
   '@context': 'https://schema.org',
   '@type': 'OfferCatalog',
-  name: 'Daftar Paket Internet Fiber Xl Satu',
+  name: 'Daftar Paket Internet Fiber XLSATU',
   description: 'Paket internet rumah dengan kecepatan 20 Mbps sampai 1000 Mbps.',
   itemListElement: internetPackages.map((pkg, index) => ({
     '@type': 'ListItem',
@@ -143,7 +143,7 @@ function formatRupiah(amount: number): string {
 }
 
 function getWhatsAppLink(packageName: string, speedMbps: number): string {
-  const message = `Halo Xl Satu, saya tertarik paket ${packageName} ${speedMbps} Mbps. Tolong cek ketersediaan jaringan di lokasi saya.`
+  const message = `Halo XLSATU, saya tertarik paket ${packageName} ${speedMbps} Mbps. Tolong cek ketersediaan jaringan di lokasi saya.`
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
 }
 
@@ -269,7 +269,7 @@ export function PricingSection() {
                 </div>
 
                 <div className="sr-only">
-                  <meta itemProp="url" content={`https://Xl Satu.com/#${pkg.id}`} />
+                  <meta itemProp="url" content={`https://daftarxlsatu.com/#${pkg.id}`} />
                   <meta itemProp="serviceType" content="Layanan Internet Fiber" />
                   <meta itemProp="areaServed" content="Indonesia" />
                   <div itemProp="offers" itemScope itemType="https://schema.org/Offer">

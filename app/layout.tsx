@@ -17,7 +17,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://daftarxlsatu.com'),
-  title: 'Paket internet fiber jabodetabek terbaik dan termurah dari 20 Mbps hingga 1000 Mbps | Daftar Xl Satu',
+  title: 'Paket Internet Fiber Jabodetabek 20 Mbps hingga 1000 Mbps | Daftar XLSATU',
   description: 'Paket internet fiber rumah dari 20 Mbps hingga 1000 Mbps. Harga mulai Rp189.000/bulan, transparan dengan harga setelah PPN, dan cek jaringan cepat via WhatsApp.',
   keywords: [
     'paket internet fiber',
@@ -29,19 +29,22 @@ export const metadata: Metadata = {
     'starter value smart family superuser ultimate ultra extreme',
   ],
   generator: 'v0.app',
-  creator: 'Xl Satu',
-  publisher: 'Xl Satu',
+  creator: 'XLSATU',
+  publisher: 'XLSATU',
   category: 'Internet Services',
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     type: 'website',
     url: 'https://daftarxlsatu.com',
-    title: 'Paket internet fiber jabodetabek terbaik dan termurah dari 20 Mbps hingga 1000 Mbps | Daftar Xl Satu',
+    title: 'Paket Internet Fiber Jabodetabek 20 Mbps hingga 1000 Mbps | Daftar XLSATU',
     description: 'Bandingkan paket Starter sampai Extreme, cek jumlah perangkat ideal, dan pilih harga internet rumah sesuai kebutuhan Anda.',
-    siteName: 'Xl Satu',
+    siteName: 'XLSATU',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Daftar Paket Internet Fiber 20-1000 Mbps | Xl Satu',
+    title: 'Daftar Paket Internet Fiber 20-1000 Mbps | XLSATU',
     description: 'Harga internet rumah transparan dengan opsi paket lengkap dan CTA WhatsApp langsung.',
   },
   icons: {
@@ -70,14 +73,14 @@ export default function RootLayout({
           {JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Organization',
-            name: 'Xl Satu',
+            name: 'XLSATU',
             description: 'Penyedia layanan internet fiber optik untuk kebutuhan rumah dan bisnis di Jabodetabek.',
-            url: 'https://Xl Satu.com',
+            url: 'https://daftarxlsatu.com',
             telephone: '+62-859-4201-0910',
             sameAs: [
-              'https://www.facebook.com/Xl Satu',
-              'https://www.instagram.com/Xl Satu',
-              'https://www.twitter.com/Xl Satu',
+              'https://www.facebook.com/daftarxlsatu',
+              'https://www.instagram.com/daftarxlsatu',
+              'https://x.com/daftarxlsatu',
             ],
             areaServed: 'ID',
             contactPoint: {
@@ -89,8 +92,8 @@ export default function RootLayout({
             },
             hasOfferCatalog: {
               '@type': 'OfferCatalog',
-              name: 'Paket Internet Fiber Xl Satu',
-              url: 'https://Xl Satu.com/#paket',
+              name: 'Paket Internet Fiber XLSATU',
+              url: 'https://daftarxlsatu.com/#paket',
             },
           })}
         </script>

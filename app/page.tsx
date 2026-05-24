@@ -9,20 +9,24 @@ import { FloatingWhatsappCTA } from '@/components/floating-whatsapp-cta'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-sky-100 via-blue-50 to-white">
-      <Navbar />
-      <HeroCarousel />
-      <FeaturesSection />
-      <PricingSection />
-      <CoverageSection />
-      <FAQSection />
-      <Footer />
-      <FloatingWhatsappCTA />
-
-      {/* Skip to main content link for accessibility */}
-      <a href="#main-content" className="sr-only focus:not-sr-only">
+    <>
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-[100] focus:rounded-md focus:bg-white focus:px-3 focus:py-2 focus:text-sm focus:font-semibold focus:text-blue-700 focus:shadow-lg"
+      >
         Lanjut ke konten utama
       </a>
-    </main>
+      <main id="main-content" className="min-h-screen bg-gradient-to-b from-sky-100 via-blue-50 to-white">
+        <h1 className="sr-only">Paket Internet Fiber Rumah XLSATU Jabodetabek 20 Mbps sampai 1000 Mbps</h1>
+        <Navbar />
+        <HeroCarousel />
+        <FeaturesSection />
+        <PricingSection />
+        <CoverageSection />
+        <FAQSection />
+        <Footer />
+        <FloatingWhatsappCTA />
+      </main>
+    </>
   )
 }
