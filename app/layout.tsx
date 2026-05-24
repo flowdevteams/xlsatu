@@ -34,8 +34,8 @@ export const metadata: Metadata = {
   category: 'Internet Services',
   openGraph: {
     type: 'website',
-    url: 'https://Xl Satu.com',
-    title: 'Daftar Paket Internet Fiber 20-1000 Mbps | Xl Satu',
+    url: 'https://daftarxlsatu.com',
+    title: 'Paket internet fiber jabodetabek terbaik dan termurah dari 20 Mbps hingga 1000 Mbps | Daftar Xl Satu',
     description: 'Bandingkan paket Starter sampai Extreme, cek jumlah perangkat ideal, dan pilih harga internet rumah sesuai kebutuhan Anda.',
     siteName: 'Xl Satu',
   },
@@ -65,6 +65,7 @@ export default function RootLayout({
   return (
     <html lang="id" className="bg-background">
       <head>
+      <meta name="google-site-verification" content="w0uUb5FIIumSlt0oDEr1PMmqUXa_noMJadY7cElz3ss" />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',
