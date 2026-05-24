@@ -71,7 +71,7 @@ export default function RootLayout({
             '@context': 'https://schema.org',
             '@type': 'Organization',
             name: 'Xl Satu',
-            description: 'Penyedia layanan internet fiber optik untuk kebutuhan rumah dan bisnis di Indonesia.',
+            description: 'Penyedia layanan internet fiber optik untuk kebutuhan rumah dan bisnis di Jabodetabek.',
             url: 'https://Xl Satu.com',
             telephone: '+62-859-4201-0910',
             sameAs: [
