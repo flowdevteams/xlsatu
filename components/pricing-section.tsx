@@ -163,10 +163,10 @@ export function PricingSection() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollReveal className="text-center mb-12 sm:mb-16" duration={860}>
           <h2 id="pricing-heading" className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 text-balance">
-            Pilihan Harga Paket XL Satu Fiber 2026
+          Promo Paket Internet XL Satu Untuk Wilayah Jabodetabek!
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto text-pretty">
-            Cek biaya pasang internet XL Satu rumah dari paket Starter sampai Extreme, termasuk promo gratis biaya instalasi
+            Cek biaya pasang internet XL Satu rumah dari paket Starter sampai Extreme Untuk Wilayah Jabodetabek, Termasuk promo gratis biaya instalasi
             dan router pada paket tertentu.
           </p>
         </ScrollReveal>

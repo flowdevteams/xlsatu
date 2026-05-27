@@ -74,10 +74,10 @@ export function FeaturesSection() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollReveal className="text-center mb-10 sm:mb-12" duration={860}>
           <h2 id="fitur-heading" className="text-3xl sm:text-4xl lg:text-5xl font-bold text-balance mb-3">
-            Keunggulan XL Satu Fiber untuk Rumah dan Bisnis
+              Pusat Pendaftaran XL Satu Wilayah Tangerang Cepat Aktif
           </h2>
           <p className="text-lg sm:text-xl text-blue-50/95 max-w-3xl mx-auto text-pretty">
-            Promo pasang XL Satu Fiber terbaru dari sales resmi XL Satu Fiber dengan dukungan 24 jam untuk keluarga Jabodetabek.
+            Nikmati koneksi internet fiber super ngebut untuk rumah dan bisnis Anda. Dapatkan promo khusus pendaftaran XL Satu Wilayah Jabodetabek khususnya untuk Tangerang dan sekitarnya.
           </p>
           <p className="sr-only">
             Agen resmi pendaftaran XL Satu Jabodetabek dengan layanan internet rumah fiber optic, satu tagihan, dan dukungan

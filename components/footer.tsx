@@ -39,7 +39,7 @@ export function Footer() {
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-blue-100/90 max-w-md">
               Layanan internet fiber optik dengan koneksi cepat, stabil, dan dukungan teknis responsif untuk kebutuhan rumah
-              maupun bisnis.
+              maupun bisnis wilayah Jabodetabek khususnya Tangerang dan Sekitarnya.
             </p>
 
             <div className="mt-6 space-y-3">

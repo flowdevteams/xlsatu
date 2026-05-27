@@ -73,6 +73,9 @@ export function HeroCarousel() {
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-sky-100/85 via-blue-50 to-cyan-50" />
 
       <div className="relative mx-auto max-w-7xl px-3 sm:px-6">
+          <h1 id="faq-heading" className="text-2xl sm:text-3xl lg:text-4xl font-bold text-sky-700 mb-4 text-center">
+           Agen Resmi Xl Satu Untuk Wilayah Tangerang Terpercaya!
+          </h1>
         <ScrollReveal
           className="relative aspect-[16/9] sm:aspect-[18/8] lg:aspect-[21/8] overflow-hidden rounded-[2rem] border border-sky-200/70 shadow-[0_30px_60px_-40px_rgba(37,99,235,0.85)]"
           variant="zoom"

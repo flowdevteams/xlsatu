@@ -17,21 +17,15 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://daftarxlsatu.com'),
-  title: 'Promo Pasang XL Satu Fiber Jabodetabek | Daftar WA',
+  title: 'Promo Daftar XL Satu Tangerang Terbaru! | Proses Cepat',
   description:
-    'Agen resmi pendaftaran XL Satu Fiber Jabodetabek. Cek area jaringan via WhatsApp, gratis instalasi & router, harga paket terbaru 2026.',
+    'Pusat pendaftaran XL Satu Untuk Wilayah Jabodetabek khususnya area Tangerang Selatan dan Sekitarnya. Dapatkan promo terbaru dari agen resmi XL Satu gratis router. Pendaftaran cepat dan mudah via WhatsApp.',
   keywords: [
-    'Promo pasang XL Satu Fiber terbaru',
-    'Biaya pasang internet XL Satu rumah',
-    'Harga paket XL Satu Fiber 2026',
-    'Daftar XL Satu tanpa ribet',
-    'Agen resmi pendaftaran XL Satu Jabodetabek',
-    'Pasang XL Satu Fiber Jakarta Selatan',
-    'Internet cepat XL Satu Tangerang',
-    'Provider internet rumah terdekat di Bekasi',
-    'Sales resmi XL Satu Fiber',
-    'Gratis biaya instalasi dan router',
-    'Cek area jaringan XL Satu via WhatsApp',
+    'Promo pasang XL Satu Tangsel gratis router',
+    'Agen resmi pasang XL Satu Tangerang tercepat',
+    'Daftar XL Satu Tangsel via WhatsApp proses mudah',
+    'Harga promo paket internet XL Satu Pamulang 2026',
+    'Pusat pendaftaran XL Satu Tangerang cepat aktif',
   ],
   generator: 'v0.app',
   creator: 'XLSATU',
@@ -43,17 +37,17 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://daftarxlsatu.com',
-    title: 'Promo Pasang XL Satu Fiber Jabodetabek | Daftar WA',
+    title: 'Promo Daftar XL Satu Tangerang Terbaru! | Proses Cepat',
     description:
-      'Sales resmi XL Satu Fiber untuk promo pasang internet rumah Jabodetabek. Cek area jaringan XL Satu via WhatsApp.',
+      'Agen resmi pendaftaran XL Satu wilayah Jabodetabek khususnya Tangerang Selatan dan Sekitarnya tercepat. Daftar XL Satu Tangsel via WhatsApp proses mudah dan dapatkan harga promo 2026.',
     siteName: 'XLSATU',
     locale: 'id_ID',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Promo Pasang XL Satu Fiber Jabodetabek | Daftar WA',
+    title: 'Promo Daftar XL Satu Tangerang Terbaru! | Proses Cepat',
     description:
-      'Agen resmi pendaftaran XL Satu Jabodetabek, harga paket XL Satu Fiber 2026, dan cek area jaringan via WhatsApp.',
+      'Pusat pendaftaran XL Satu Tangerang Selatan dan Jabodetabek cepat aktif. Promo pasang XL Satu Tangsel gratis router sekarang juga.',
   },
   icons: {
     icon: [
@@ -76,52 +70,53 @@ export default function RootLayout({
   return (
     <html lang="id" className="bg-background">
       <head>
-      <meta name="google-site-verification" content="w0uUb5FIIumSlt0oDEr1PMmqUXa_noMJadY7cElz3ss" />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': ['LocalBusiness', 'Organization'],
-            '@id': 'https://daftarxlsatu.com/#agen-resmi-xlsatu',
-            name: 'Daftar XLSATU',
-            alternateName: 'Agen Resmi Pendaftaran XL Satu Fiber',
-            description: 'Sales resmi XL Satu Fiber untuk pemasangan internet rumah di wilayah Jabodetabek.',
-            url: 'https://daftarxlsatu.com',
-            image: 'https://daftarxlsatu.com/favicon.png',
-            telephone: '+62-859-4201-0910',
-            priceRange: 'Rp189.000-Rp999.000',
-            address: {
-              '@type': 'PostalAddress',
-              addressLocality: 'Jakarta Selatan',
-              addressRegion: 'DKI Jakarta',
-              addressCountry: 'ID',
-            },
-            sameAs: [
-              'https://www.facebook.com/daftarxlsatu',
-              'https://www.instagram.com/daftarxlsatu',
-              'https://x.com/daftarxlsatu',
-            ],
-            areaServed: [
-              { '@type': 'City', name: 'Jakarta' },
-              { '@type': 'City', name: 'Bogor' },
-              { '@type': 'City', name: 'Depok' },
-              { '@type': 'City', name: 'Tangerang' },
-              { '@type': 'City', name: 'Bekasi' },
-            ],
-            contactPoint: {
-              '@type': 'ContactPoint',
-              contactType: 'Customer Support',
+        <meta name="google-site-verification" content="w0uUb5FIIumSlt0oDEr1PMmqUXa_noMJadY7cElz3ss" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': ['LocalBusiness', 'Organization'],
+              '@id': 'https://daftarxlsatu.com/#agen-resmi-xlsatu',
+              name: 'Daftar XLSATU',
+              alternateName: 'Agen Resmi Pendaftaran XL Satu Fiber',
+              description: 'Pusat pendaftaran XL Satu Tangerang cepat aktif dan agen resmi pasang XL Satu Tangsel.',
+              url: 'https://daftarxlsatu.com',
+              image: 'https://daftarxlsatu.com/favicon.png',
               telephone: '+62-859-4201-0910',
-              hoursAvailable: 'Mon-Sun 00:00-24:00',
-              availableLanguage: 'id',
-              areaServed: 'Jabodetabek',
-            },
-            hasOfferCatalog: {
-              '@type': 'OfferCatalog',
-              name: 'Paket Internet Fiber XLSATU',
-              url: 'https://daftarxlsatu.com/#paket',
-            },
-          })}
-        </script>
+              priceRange: 'Rp189.000-Rp999.000',
+              address: {
+                '@type': 'PostalAddress',
+                addressLocality: 'Tangerang Selatan',
+                addressRegion: 'Banten',
+                addressCountry: 'ID',
+              },
+              sameAs: [
+                'https://www.facebook.com/daftarxlsatu',
+                'https://www.instagram.com/daftarxlsatu',
+                'https://x.com/daftarxlsatu',
+              ],
+              areaServed: [
+                { '@type': 'City', name: 'Tangerang Selatan' },
+                { '@type': 'City', name: 'Tangerang' },
+                { '@type': 'City', name: 'Pamulang' },
+              ],
+              contactPoint: {
+                '@type': 'ContactPoint',
+                contactType: 'Customer Support',
+                telephone: '+62-859-4201-0910',
+                hoursAvailable: 'Mon-Sun 00:00-24:00',
+                availableLanguage: 'id',
+                areaServed: ['Tangerang Selatan', 'Tangerang', 'Pamulang'],
+              },
+              hasOfferCatalog: {
+                '@type': 'OfferCatalog',
+                name: 'Paket Internet Fiber XLSATU',
+                url: 'https://daftarxlsatu.com/#paket',
+              },
+            }),
+          }}
+        />
       </head>
       <body className="font-sans antialiased bg-background text-foreground">
         {children}

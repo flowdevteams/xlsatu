@@ -23,7 +23,7 @@ const jabodetabekRegions: CoverageRegion[] = [
     id: 'jakarta',
     city: 'Jakarta',
     area: 'DKI Jakarta',
-    tagline: 'Pasang XL Satu Fiber Jakarta Selatan dan area DKI untuk rumah, apartemen, dan perkantoran.',
+    tagline: 'Pemasangan prioritas untuk apartemen dan perkantoran.',
     covered: true,
   },
   {
@@ -44,7 +44,7 @@ const jabodetabekRegions: CoverageRegion[] = [
     id: 'tangerang',
     city: 'Tangerang',
     area: 'Kota & Kabupaten Tangerang',
-    tagline: 'Internet cepat XL Satu Tangerang untuk residensial dan komersial.',
+    tagline: 'Area prioritas untuk wiayah Tangerang Selatan (Pamulang).',
     covered: true,
   },
   {
@@ -72,7 +72,7 @@ const coverageStructuredData = {
 export function CoverageSection() {
   const coveredCount = jabodetabekRegions.filter((region) => region.covered).length
   const totalCount = jabodetabekRegions.length
-  const selectedRegion = jabodetabekRegions[0]
+  const selectedRegion = jabodetabekRegions[3]
 
   return (
     <section
@@ -126,7 +126,7 @@ export function CoverageSection() {
                   />
                 </div>
                 <p className="text-sm text-gray-600">
-                  Seluruh area Jabodetabek sudah dalam cakupan layanan internet fiber XLSATU.
+                  Seluruh area Jabodetabek sudah dalam cakupan layanan internet  XL Satu.
                 </p>
               </div>
 
@@ -150,7 +150,7 @@ export function CoverageSection() {
             >
               <div className="inline-flex items-center gap-2 rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700 mb-4">
                 <Building2 className="h-4 w-4" />
-                Area Terpilih
+                Area Prioritas 
               </div>
 
               <h4 className="text-2xl font-bold text-gray-900">{selectedRegion.city}</h4>
@@ -159,7 +159,7 @@ export function CoverageSection() {
 
               <div className="mt-5 flex items-center gap-2 text-green-600 font-semibold">
                 <CheckCircle2 className="h-5 w-5" />
-                Tersedia untuk pemasangan
+                Proses Instalasi Cepat
               </div>
             </ScrollReveal>
           </div>
@@ -205,13 +205,13 @@ export function CoverageSection() {
             >
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                 <div>
-                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900">Fokus Layanan Jabodetabek</h3>
+                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900">Prioritas Instalasi Area Tangerang Selatan</h3>
                   <p className="text-gray-600 mt-2">
-                    Prioritas pemasangan untuk area padat hunian dan bisnis agar proses aktivasi lebih cepat.
+                    Prioritas pemasangan untuk area Tangerang Selatan. Proses aktivasi lebih cepat!.
                   </p>
                 </div>
                 <div className="inline-flex items-center justify-center rounded-xl border border-blue-200 bg-white px-4 py-2 text-sm font-semibold text-blue-700 shadow-sm">
-                  Aktivasi cepat area Jabodetabek
+                  Aktivasi cepat 
                 </div>
               </div>
             </ScrollReveal>

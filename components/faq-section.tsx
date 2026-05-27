@@ -91,10 +91,10 @@ export function FAQSection() {
         {/* Section Header */}
         <ScrollReveal className="text-center mb-12 sm:mb-16" duration={860}>
           <h2 id="faq-heading" className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 text-balance">
-            Cara Daftar XL Satu Tanpa Ribet
+            Pertanyaan Umum Seputar Pemasangan XL Satu 
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto text-pretty">
-            Temukan jawaban cepat tentang harga paket XL Satu Fiber 2026, biaya pasang internet XL Satu rumah, dan proses
+            Temukan jawaban cepat tentang harga paket XL Satu Untuk Wilayah Jabodetabek khusus nya area Tangerang dan sekitarnya, Informasi biaya pasang internet XL Satu, dan proses
             pendaftaran.
           </p>
         </ScrollReveal>
