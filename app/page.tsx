@@ -17,9 +17,11 @@ export default function Home() {
         Lanjut ke konten utama
       </a>
       <main id="main-content" className="min-h-screen bg-gradient-to-b from-sky-100 via-blue-50 to-white">
-        <h1 className="sr-only">Paket Internet Fiber Rumah XLSATU Jabodetabek 20 Mbps sampai 1000 Mbps</h1>
-        <Navbar />
-        <HeroCarousel />
+        <h1 className="sr-only">Pusat Pendaftaran XL Satu Fiber Resmi Jabodetabek</h1>
+        <header>
+          <Navbar />
+          <HeroCarousel />
+        </header>
         <FeaturesSection />
         <PricingSection />
         <CoverageSection />

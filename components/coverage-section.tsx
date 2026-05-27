@@ -23,7 +23,7 @@ const jabodetabekRegions: CoverageRegion[] = [
     id: 'jakarta',
     city: 'Jakarta',
     area: 'DKI Jakarta',
-    tagline: 'Pusat bisnis, apartemen, dan perkantoran.',
+    tagline: 'Pasang XL Satu Fiber Jakarta Selatan dan area DKI untuk rumah, apartemen, dan perkantoran.',
     covered: true,
   },
   {
@@ -44,14 +44,14 @@ const jabodetabekRegions: CoverageRegion[] = [
     id: 'tangerang',
     city: 'Tangerang',
     area: 'Kota & Kabupaten Tangerang',
-    tagline: 'Jaringan stabil untuk residensial dan komersial.',
+    tagline: 'Internet cepat XL Satu Tangerang untuk residensial dan komersial.',
     covered: true,
   },
   {
     id: 'bekasi',
     city: 'Bekasi',
     area: 'Kota & Kabupaten Bekasi',
-    tagline: 'Dukungan penuh untuk cluster dan kawasan industri.',
+    tagline: 'Provider internet rumah terdekat di Bekasi untuk cluster dan kawasan industri.',
     covered: true,
   },
 ]
@@ -75,18 +75,22 @@ export function CoverageSection() {
   const selectedRegion = jabodetabekRegions[0]
 
   return (
-    <section id="coverage" className="relative overflow-hidden py-12 sm:py-16 lg:py-20 bg-white">
+    <section
+      id="coverage"
+      className="relative overflow-hidden py-12 sm:py-16 lg:py-20 bg-white"
+      aria-labelledby="coverage-heading"
+    >
       <div className="pointer-events-none absolute -top-14 left-1/4 h-56 w-56 rounded-full bg-cyan-200/30 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-14 right-1/4 h-64 w-64 rounded-full bg-blue-200/30 blur-3xl" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollReveal className="text-center mb-12 sm:mb-16" duration={860}>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 text-balance">
-            Cek Jangkauan Internet Fiber di Jabodetabek
+          <h2 id="coverage-heading" className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 text-balance">
+            Cara Daftar XL Satu Tanpa Ribet dan Cek Area Jabodetabek
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto text-pretty">
-            Layanan internet rumah berfokus di Jakarta, Bogor, Depok, Tangerang, dan Bekasi untuk instalasi lebih cepat
-            dan dukungan teknis yang lebih responsif.
+            Cek area jaringan XL Satu via WhatsApp untuk Jakarta, Bogor, Depok, Tangerang, dan Bekasi agar proses aktivasi
+            internet rumah lebih cepat.
           </p>
         </ScrollReveal>
 

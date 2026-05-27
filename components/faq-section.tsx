@@ -16,27 +16,27 @@ interface FAQItem {
 const faqs: FAQItem[] = [
   {
     id: 'faq-1',
-    question: 'Berapa lama proses instalasi internet?',
+    question: 'Berapa harga paket XL Satu Fiber 2026?',
     answer:
-      'Proses instalasi internet kami biasanya memakan waktu 3-5 hari kerja setelah Anda melakukan pemesanan. Tim teknisi profesional kami akan menghubungi untuk menjadwalkan waktu instalasi yang sesuai dengan ketersediaan Anda. Khusus paket Starter dikenakan biaya instalasi Rp100.000, sementara paket Value hingga Extreme gratis biaya instalasi.',
+      'Harga paket XL Satu Fiber 2026 mulai dari Rp189.000 per bulan (sebelum PPN) untuk paket Starter hingga Rp900.000 per bulan untuk paket Extreme. Detail harga setelah PPN ditampilkan transparan di setiap paket.',
   },
   {
     id: 'faq-2',
-    question: 'Apakah ada biaya setup atau biaya tambahan?',
+    question: 'Berapa biaya pasang internet XL Satu rumah?',
     answer:
-      'Kami menampilkan harga paket secara transparan, termasuk harga setelah PPN. Untuk biaya instalasi, paket Starter dikenakan Rp100.000 dan paket Value ke atas gratis biaya instalasi. Tidak ada biaya setup tersembunyi di luar komponen tersebut.',
+      'Biaya pasang internet XL Satu rumah untuk paket Starter adalah Rp100.000. Paket Value sampai Extreme mendapatkan gratis biaya instalasi dan router sesuai promo aktif.',
   },
   {
     id: 'faq-3',
-    question: 'Apakah saya bisa upgrade atau downgrade paket kapan saja?',
+    question: 'Apakah XL Satu unlimited?',
     answer:
-      'Tentu. Anda dapat upgrade atau downgrade paket kapan saja tanpa penalti atau biaya tambahan. Perubahan akan berlaku pada siklus tagihan berikutnya. Hubungi tim marketing kami atau gunakan aplikasi myXL untuk mengubah paket Anda.',
+      'Ya, XL Satu Fiber menyediakan kuota WiFi unlimited untuk kebutuhan rumah, streaming, meeting online, dan aktivitas harian keluarga.',
   },
   {
     id: 'faq-4',
-    question: 'Bagaimana dengan dukungan teknis jika ada masalah?',
+    question: 'Bagaimana cara cek coverage area XL Satu via WhatsApp?',
     answer:
-      'Tim dukungan teknis kami tersedia 24/7 untuk membantu Anda. Anda dapat menghubungi kami melalui telepon (0859-4201-0910) atau WhatsApp resmi XLSATU. Waktu respons kami rata-rata kurang dari 15 menit untuk kendala mendesak.',
+      'Klik tombol WhatsApp di halaman ini lalu kirim lokasi lengkap Anda. Sales resmi XL Satu Fiber akan membantu cek area jaringan XL Satu via WhatsApp untuk wilayah Jabodetabek dan kota lain di Indonesia.',
   },
   {
     id: 'faq-5',
@@ -76,6 +76,8 @@ const faqs: FAQItem[] = [
   },
 ]
 
+const faqSchemaItems = faqs.slice(0, 4)
+
 export function FAQSection() {
   const [activeId, setActiveId] = useState<string | null>(null)
 
@@ -84,15 +86,16 @@ export function FAQSection() {
   }
 
   return (
-    <section id="faq" className="py-12 sm:py-16 lg:py-20 bg-white">
+    <section id="faq" className="py-12 sm:py-16 lg:py-20 bg-white" aria-labelledby="faq-heading">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <ScrollReveal className="text-center mb-12 sm:mb-16" duration={860}>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 text-balance">
-            Pertanyaan yang Sering Diajukan
+          <h2 id="faq-heading" className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 text-balance">
+            Cara Daftar XL Satu Tanpa Ribet
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto text-pretty">
-            Temukan jawaban untuk pertanyaan umum tentang layanan, paket, dan dukungan pelanggan kami
+            Temukan jawaban cepat tentang harga paket XL Satu Fiber 2026, biaya pasang internet XL Satu rumah, dan proses
+            pendaftaran.
           </p>
         </ScrollReveal>
 
@@ -165,7 +168,7 @@ export function FAQSection() {
           {JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
-            mainEntity: faqs.map((faq) => ({
+            mainEntity: faqSchemaItems.map((faq) => ({
               '@type': 'Question',
               name: faq.question,
               acceptedAnswer: {

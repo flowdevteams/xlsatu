@@ -74,13 +74,13 @@ export function FeaturesSection() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollReveal className="text-center mb-10 sm:mb-12" duration={860}>
           <h2 id="fitur-heading" className="text-3xl sm:text-4xl lg:text-5xl font-bold text-balance mb-3">
-            Solusi Internet Lengkapi Kebutuhan Keluarga
+            Keunggulan XL Satu Fiber untuk Rumah dan Bisnis
           </h2>
           <p className="text-lg sm:text-xl text-blue-50/95 max-w-3xl mx-auto text-pretty">
-            Yuk berlangganan internet rumah dapat bonus kuota internet besar dari XL SATU.
+            Promo pasang XL Satu Fiber terbaru dari sales resmi XL Satu Fiber dengan dukungan 24 jam untuk keluarga Jabodetabek.
           </p>
           <p className="sr-only">
-            Layanan internet rumah fiber optic untuk keluarga Indonesia dengan kuota besar, satu tagihan, dan dukungan
+            Agen resmi pendaftaran XL Satu Jabodetabek dengan layanan internet rumah fiber optic, satu tagihan, dan dukungan
             customer support 24 jam.
           </p>
         </ScrollReveal>

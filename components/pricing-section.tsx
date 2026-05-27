@@ -22,7 +22,7 @@ const internetPackages: InternetPackage[] = [
     speedMbps: 20,
     idealFor: ['Browsing', 'Social Media'],
     maxDevices: 3,
-    installationText: 'Biaya Instalasi Rp100.000,-',
+    installationText: 'Biaya Instalasi Rp100.000,- + Router',
     monthlyPrice: 189000,
     monthlyPriceAfterTax: 209790,
   },
@@ -32,7 +32,7 @@ const internetPackages: InternetPackage[] = [
     speedMbps: 30,
     idealFor: ['Browsing', 'Social Media', 'Streaming HD'],
     maxDevices: 5,
-    installationText: 'Gratis Biaya Instalasi',
+    installationText: 'Gratis Biaya Instalasi dan Router',
     monthlyPrice: 219000,
     monthlyPriceAfterTax: 243090,
   },
@@ -42,7 +42,7 @@ const internetPackages: InternetPackage[] = [
     speedMbps: 250,
     idealFor: ['Browsing', 'Social Media', 'Streaming HD'],
     maxDevices: 7,
-    installationText: 'Gratis Biaya Instalasi',
+    installationText: 'Gratis Biaya Instalasi dan Router',
     monthlyPrice: 229000,
     monthlyPriceAfterTax: 254190,
   },
@@ -52,7 +52,7 @@ const internetPackages: InternetPackage[] = [
     speedMbps: 350,
     idealFor: ['Browsing', 'Social Media', 'Streaming HD'],
     maxDevices: 8,
-    installationText: 'Gratis Biaya Instalasi',
+    installationText: 'Gratis Biaya Instalasi dan Router',
     monthlyPrice: 279000,
     monthlyPriceAfterTax: 309690,
   },
@@ -62,7 +62,7 @@ const internetPackages: InternetPackage[] = [
     speedMbps: 400,
     idealFor: ['Browsing', 'Social Media', 'Streaming HD', 'Streaming 4K'],
     maxDevices: 10,
-    installationText: 'Gratis Biaya Instalasi',
+    installationText: 'Gratis Biaya Instalasi dan Router',
     monthlyPrice: 369000,
     monthlyPriceAfterTax: 409590,
   },
@@ -72,7 +72,7 @@ const internetPackages: InternetPackage[] = [
     speedMbps: 300,
     idealFor: ['Browsing', 'Social Media', 'Streaming HD', 'Streaming 4K', 'Video Conference'],
     maxDevices: 12,
-    installationText: 'Gratis Biaya Instalasi',
+    installationText: 'Gratis Biaya Instalasi dan Router',
     monthlyPrice: 400000,
     monthlyPriceAfterTax: 444000,
   },
@@ -82,7 +82,7 @@ const internetPackages: InternetPackage[] = [
     speedMbps: 600,
     idealFor: ['Browsing', 'Social Media', 'Streaming HD', 'Streaming 4K', 'Video Conference'],
     maxDevices: 15,
-    installationText: 'Gratis Biaya Instalasi',
+    installationText: 'Gratis Biaya Instalasi dan Router',
     monthlyPrice: 500000,
     monthlyPriceAfterTax: 555000,
   },
@@ -92,7 +92,7 @@ const internetPackages: InternetPackage[] = [
     speedMbps: 1000,
     idealFor: ['Browsing', 'Social Media', 'Streaming HD', 'Streaming 4K', 'Video Conference'],
     maxDevices: 18,
-    installationText: 'Gratis Biaya Instalasi',
+    installationText: 'Gratis Biaya Instalasi dan Router',
     monthlyPrice: 900000,
     monthlyPriceAfterTax: 999000,
   },
@@ -163,11 +163,11 @@ export function PricingSection() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollReveal className="text-center mb-12 sm:mb-16" duration={860}>
           <h2 id="pricing-heading" className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 text-balance">
-            Daftar Harga Paket XL Satu
+            Pilihan Harga Paket XL Satu Fiber 2026
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto text-pretty">
-            Pilihan paket internet rumah dari 20 Mbps sampai 1000 Mbps dengan harga transparan, informasi PPN yang jelas, dan
-            proses cek jaringan cepat via WhatsApp.
+            Cek biaya pasang internet XL Satu rumah dari paket Starter sampai Extreme, termasuk promo gratis biaya instalasi
+            dan router pada paket tertentu.
           </p>
         </ScrollReveal>
 
@@ -264,7 +264,7 @@ export function PricingSection() {
                     aria-label={`Cek jaringan untuk paket ${pkg.name}`}
                   >
                     <MessageCircle className="w-5 h-5" />
-                    Yuk Cek Jaringan!
+                    Cek Jaringan via WhatsApp
                   </a>
                 </div>
 

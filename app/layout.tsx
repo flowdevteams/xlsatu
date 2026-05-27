@@ -17,16 +17,21 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://daftarxlsatu.com'),
-  title: 'Paket Internet Fiber Jabodetabek 20 Mbps hingga 1000 Mbps | Daftar XLSATU',
-  description: 'Paket internet fiber rumah dari 20 Mbps hingga 1000 Mbps. Harga mulai Rp189.000/bulan, transparan dengan harga setelah PPN, dan cek jaringan cepat via WhatsApp.',
+  title: 'Promo Pasang XL Satu Fiber Jabodetabek | Daftar WA',
+  description:
+    'Agen resmi pendaftaran XL Satu Fiber Jabodetabek. Cek area jaringan via WhatsApp, gratis instalasi & router, harga paket terbaru 2026.',
   keywords: [
-    'paket internet fiber',
-    'harga internet rumah',
-    'internet cepat indonesia',
-    'paket wifi rumah',
-    'internet 20 mbps',
-    'internet 1000 mbps',
-    'starter value smart family superuser ultimate ultra extreme',
+    'Promo pasang XL Satu Fiber terbaru',
+    'Biaya pasang internet XL Satu rumah',
+    'Harga paket XL Satu Fiber 2026',
+    'Daftar XL Satu tanpa ribet',
+    'Agen resmi pendaftaran XL Satu Jabodetabek',
+    'Pasang XL Satu Fiber Jakarta Selatan',
+    'Internet cepat XL Satu Tangerang',
+    'Provider internet rumah terdekat di Bekasi',
+    'Sales resmi XL Satu Fiber',
+    'Gratis biaya instalasi dan router',
+    'Cek area jaringan XL Satu via WhatsApp',
   ],
   generator: 'v0.app',
   creator: 'XLSATU',
@@ -38,14 +43,17 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://daftarxlsatu.com',
-    title: 'Paket Internet Fiber Jabodetabek 20 Mbps hingga 1000 Mbps | Daftar XLSATU',
-    description: 'Bandingkan paket Starter sampai Extreme, cek jumlah perangkat ideal, dan pilih harga internet rumah sesuai kebutuhan Anda.',
+    title: 'Promo Pasang XL Satu Fiber Jabodetabek | Daftar WA',
+    description:
+      'Sales resmi XL Satu Fiber untuk promo pasang internet rumah Jabodetabek. Cek area jaringan XL Satu via WhatsApp.',
     siteName: 'XLSATU',
+    locale: 'id_ID',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Daftar Paket Internet Fiber 20-1000 Mbps | XLSATU',
-    description: 'Harga internet rumah transparan dengan opsi paket lengkap dan CTA WhatsApp langsung.',
+    title: 'Promo Pasang XL Satu Fiber Jabodetabek | Daftar WA',
+    description:
+      'Agen resmi pendaftaran XL Satu Jabodetabek, harga paket XL Satu Fiber 2026, dan cek area jaringan via WhatsApp.',
   },
   icons: {
     icon: [
@@ -72,23 +80,40 @@ export default function RootLayout({
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'Organization',
-            name: 'XLSATU',
-            description: 'Penyedia layanan internet fiber optik untuk kebutuhan rumah dan bisnis di Jabodetabek.',
+            '@type': ['LocalBusiness', 'Organization'],
+            '@id': 'https://daftarxlsatu.com/#agen-resmi-xlsatu',
+            name: 'Daftar XLSATU',
+            alternateName: 'Agen Resmi Pendaftaran XL Satu Fiber',
+            description: 'Sales resmi XL Satu Fiber untuk pemasangan internet rumah di wilayah Jabodetabek.',
             url: 'https://daftarxlsatu.com',
+            image: 'https://daftarxlsatu.com/favicon.png',
             telephone: '+62-859-4201-0910',
+            priceRange: 'Rp189.000-Rp999.000',
+            address: {
+              '@type': 'PostalAddress',
+              addressLocality: 'Jakarta Selatan',
+              addressRegion: 'DKI Jakarta',
+              addressCountry: 'ID',
+            },
             sameAs: [
               'https://www.facebook.com/daftarxlsatu',
               'https://www.instagram.com/daftarxlsatu',
               'https://x.com/daftarxlsatu',
             ],
-            areaServed: 'ID',
+            areaServed: [
+              { '@type': 'City', name: 'Jakarta' },
+              { '@type': 'City', name: 'Bogor' },
+              { '@type': 'City', name: 'Depok' },
+              { '@type': 'City', name: 'Tangerang' },
+              { '@type': 'City', name: 'Bekasi' },
+            ],
             contactPoint: {
               '@type': 'ContactPoint',
               contactType: 'Customer Support',
               telephone: '+62-859-4201-0910',
               hoursAvailable: 'Mon-Sun 00:00-24:00',
               availableLanguage: 'id',
+              areaServed: 'Jabodetabek',
             },
             hasOfferCatalog: {
               '@type': 'OfferCatalog',

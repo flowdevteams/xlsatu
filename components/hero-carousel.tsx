@@ -23,17 +23,17 @@ const slides: Slide[] = [
   {
     id: 1,
     src: '/banner/banner1.png',
-    alt: 'Banner internet rumah fiber optic XLSATU',
+    alt: 'Promo pasang XL Satu Fiber terbaru untuk rumah di Jabodetabek',
   },
   {
     id: 2,
     src: '/banner/banner2.png',
-    alt: 'Banner promo internet rumah dengan bonus kuota XL SATU',
+    alt: 'Agen resmi pendaftaran XL Satu Jabodetabek dengan promo keluarga',
   },
   {
     id: 3,
     src: '/banner/banner3.png',
-    alt: 'Banner layanan internet rumah cepat dan stabil',
+    alt: 'Cek area jaringan XL Satu via WhatsApp untuk Jakarta, Tangerang, dan Bekasi',
   },
 ]
 
@@ -65,7 +65,11 @@ export function HeroCarousel() {
   }
 
   return (
-    <section id="home" className="relative mt-4 pb-8 pt-2 overflow-hidden" aria-label="Carousel banner utama">
+    <section
+      id="home"
+      className="relative mt-4 pb-8 pt-2 overflow-hidden"
+      aria-label="Carousel promo pasang XL Satu Fiber terbaru"
+    >
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-sky-100/85 via-blue-50 to-cyan-50" />
 
       <div className="relative mx-auto max-w-7xl px-3 sm:px-6">
@@ -145,7 +149,7 @@ export function HeroCarousel() {
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm text-slate-600">Akses Cepat</p>
-                    <p className="text-base sm:text-lg font-bold text-slate-900">Cek Coverage Area</p>
+                    <p className="text-base sm:text-lg font-bold text-slate-900">Cek Area Jaringan XL Satu</p>
                   </div>
                 </div>
                 <CircleArrowRight className="absolute right-3 top-3 h-5 w-5 text-blue-500 transition-transform duration-300 group-hover:translate-x-0.5" />
@@ -164,7 +168,7 @@ export function HeroCarousel() {
                     <MessageCircleMore className="h-5 w-5" />
                   </div>
                   <div className="min-w-0">
-                    <p className="text-sm text-blue-100">Pendaftaran Cepat</p>
+                    <p className="text-sm text-blue-100">Daftar XL Satu tanpa ribet</p>
                     <p className="text-base sm:text-lg font-bold">Via WhatsApp</p>
                   </div>
                 </div>
@@ -183,7 +187,7 @@ export function HeroCarousel() {
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm text-slate-600">Lihat Detail</p>
-                    <p className="text-base sm:text-lg font-bold text-slate-900">Cek Harga Paket</p>
+                    <p className="text-base sm:text-lg font-bold text-slate-900">Harga Paket XL Satu Fiber 2026</p>
                   </div>
                 </div>
                 <CircleArrowRight className="absolute right-3 top-3 h-5 w-5 text-blue-500 transition-transform duration-300 group-hover:translate-x-0.5" />
