@@ -70,7 +70,7 @@ export default function RootLayout({
   return (
     <html lang="id" className="bg-background">
       <head>
-        <meta name="google-site-verification" content="w0uUb5FIIumSlt0oDEr1PMmqUXa_noMJadY7cElz3ss" />
+        <meta name="google-site-verification" content="VYuEdsBV67upU-a6dzCGGq3qrZIIG8YjoRuihgmJ1To" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
